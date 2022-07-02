@@ -2,7 +2,7 @@
 
 
 
-
+import foto14 from "./Source/wave2.png"
 
 import Navbar from "./Components/nav-bar"
 import Banner from "./Components/banner"
@@ -10,7 +10,6 @@ import Products from "./Components/products"
 import Service from "./Components/service"
 import About from "./Components/about"
 import Social from "./Components/social"
-import Footer from "./Components/footer"
 
 export default function Main () {
 
@@ -29,7 +28,6 @@ export default function Main () {
         {/*Social Media*/}
         <Social/>
         {/*footer*/}
-        <Footer/>
         </div>
     )
 }
