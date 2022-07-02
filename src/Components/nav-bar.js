@@ -1,5 +1,8 @@
 import Home from "./Home"
 import Product from "./product"
+import Servicenb from "./servicenb"
+import Aboutus from "./Aboutus"
+import Contact from "./contact"
 export default function Navbar ()
 {
  return(
@@ -13,15 +16,9 @@ export default function Navbar ()
                 <ul className="navbar-nav ml-auto">
                 <Home/>
                 <Product/>
-                <li className="nav-item">
-                    <a className="nav-link" href="#services">Service</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#about-us">About Us</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#footer">Contacts</a>
-                </li>
+                <Servicenb/>
+                <Aboutus/> 
+                <Contact/>
                 </ul>
             </div>
             </nav>
