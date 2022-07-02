@@ -1,3 +1,5 @@
+import Home from "./Home"
+import Product from "./product"
 export default function Navbar ()
 {
  return(
@@ -9,12 +11,8 @@ export default function Navbar ()
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto">
-                <li className="nav-item">
-                    <a className="nav-link" href="#top">Home <span className="sr-only">(current)</span></a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#products">Products</a>
-                </li>
+                <Home/>
+                <Product/>
                 <li className="nav-item">
                     <a className="nav-link" href="#services">Service</a>
                 </li>
